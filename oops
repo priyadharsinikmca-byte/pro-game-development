@@ -1,0 +1,21 @@
+class car:
+ model = "2018 demon"
+ color = "purple"
+ def display(self):
+    print("Model:", self.model)
+    print("Color:", self.color)
+obj1 = car()
+obj1.display()
+
+    
+
+class student:
+    name = "John"
+    age = 20
+    grade = "A"
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+        print("Grade:", self.grade)
+obj2 = student()
+obj2.display()
